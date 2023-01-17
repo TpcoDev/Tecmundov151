@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+
+	<!-- <record id="menu_fashion_home_template" model="website.menu">
+		<field name="name">Fashion</field>
+		<field name="parent_id" ref="website.main_menu" />
+		<field name="sequence" type="int">24</field>
+		<field name="url">/fashion</field>
+	</record>
+	<record id="menu_fashion_accesories_template" model="website.menu">
+		<field name="name">Fashion Accesories</field>
+		<field name="parent_id" ref="website.main_menu" />
+		<field name="sequence" type="int">25</field>
+		<field name="url">/fashion-accesories</field>
+	</record>
+
+	<record id="menu_furniture_template" model="website.menu">
+		<field name="name">Furniture</field>
+		<field name="parent_id" ref="website.main_menu" />
+		<field name="sequence" type="int">26</field>
+		<field name="url">/furniture</field>
+	</record>
+
+	<record id="menu_wine_template" model="website.menu">
+		<field name="name">Wine</field>
+		<field name="parent_id" ref="website.main_menu" />
+		<field name="sequence" type="int">27</field>
+		<field name="url">/wine</field>
+	</record>
+
+	<record id="menu_electronic_template" model="website.menu">
+		<field name="name">Electronic</field>
+		<field name="parent_id" ref="website.main_menu" />
+		<field name="sequence" type="int">28</field>
+		<field name="url">/electronic</field>
+	</record>
+
+	<record id="menu_tools_template" model="website.menu">
+		<field name="name">Tools</field>
+		<field name="parent_id" ref="website.main_menu" />
+		<field name="sequence" type="int">29</field>
+		<field name="url">/tools</field>
+	</record>
+
+	<record id="menu_restaurant_template" model="website.menu">
+		<field name="name">Restaurant</field>
+		<field name="parent_id" ref="website.main_menu" />
+		<field name="sequence" type="int">30</field>
+		<field name="url">/restaurant</field>
+	</record>
+
+	<record id="menu_autoparts_template" model="website.menu">
+		<field name="name">Autoparts</field>
+		<field name="parent_id" ref="website.main_menu" />
+		<field name="sequence" type="int">31</field>
+		<field name="url">/autoparts</field>
+	</record>
+
+	<record id="menu_medical_template" model="website.menu">
+		<field name="name">Medical Equipement</field>
+		<field name="parent_id" ref="website.main_menu" />
+		<field name="sequence" type="int">32</field>
+		<field name="url">/medical</field>
+	</record>
+
+	<record id="menu_sports_template" model="website.menu">
+		<field name="name">Sports</field>
+		<field name="parent_id" ref="website.main_menu" />
+		<field name="sequence" type="int">33</field>
+		<field name="url">/sports</field>
+	</record>
+
+	<record id="menu_glasses_template" model="website.menu">
+		<field name="name">Glasses</field>
+		<field name="parent_id" ref="website.main_menu" />
+		<field name="sequence" type="int">34</field>
+		<field name="url">/glasses</field>
+	</record>
+
+	<record id="menu_span_template" model="website.menu">
+		<field name="name">Spa</field>
+		<field name="parent_id" ref="website.main_menu" />
+		<field name="sequence" type="int">35</field>
+		<field name="url">/spa</field>
+	</record>
+
+	<record id="menu_grocery_template" model="website.menu">
+		<field name="name">Grocery</field>
+		<field name="parent_id" ref="website.main_menu" />
+		<field name="sequence" type="int">36</field>
+		<field name="url">/grocery</field>
+	</record>
+
+	<record id="menu_organic_template" model="website.menu">
+		<field name="name">Organic</field>
+		<field name="parent_id" ref="website.main_menu" />
+		<field name="sequence" type="int">37</field>
+		<field name="url">/organic</field>
+	</record>
+
+	<record id="menu_jewellery_template" model="website.menu">
+		<field name="name">Jewellery</field>
+		<field name="parent_id" ref="website.main_menu" />
+		<field name="sequence" type="int">38</field>
+		<field name="url">/jewellery</field>
+	</record> -->
+
+	<record id="menu_charity_template" model="website.menu">
+		<field name="name">Charity</field>
+		<field name="parent_id" ref="website.main_menu" />
+		<field name="sequence" type="int">39</field>
+		<field name="url">/charity</field>
+	</record>
+
+	<record id="menu_It_solution_template" model="website.menu">
+		<field name="name">It Solution</field>
+		<field name="parent_id" ref="website.main_menu" />
+		<field name="sequence" type="int">40</field>
+		<field name="url">/It-solution</field>
+	</record>
+
+	<record id="menu_creative_agency_template" model="website.menu">
+		<field name="name">Creative Agency</field>
+		<field name="parent_id" ref="website.main_menu" />
+		<field name="sequence" type="int">41</field>
+		<field name="url">/creative-agency</field>
+	</record>
+
+	<record id="menu_app_landing_template" model="website.menu">
+		<field name="name">App Landing</field>
+		<field name="parent_id" ref="website.main_menu" />
+		<field name="sequence" type="int">42</field>
+		<field name="url">/app-landing</field>
+	</record>
+
+	<record id="menu_app_landing_two_template" model="website.menu">
+		<field name="name">App Landing New</field>
+		<field name="parent_id" ref="website.main_menu" />
+		<field name="sequence" type="int">43</field>
+		<field name="url">/app-landing-two</field>
+	</record>
+
+	<record id="menu_business_medical_template" model="website.menu">
+		<field name="name">Business Medical</field>
+		<field name="parent_id" ref="website.main_menu" />
+		<field name="sequence" type="int">44</field>
+		<field name="url">/business-medical</field>
+	</record>
+
+	<record id="menu_snowboard_template" model="website.menu">
+		<field name="name">Snowboard &amp; Ski</field>
+		<field name="parent_id" ref="website.main_menu" />
+		<field name="sequence" type="int">45</field>
+		<field name="url">/snowboard-ski</field>
+	</record>
+
+	<record id="menu_cyber_security_template" model="website.menu">
+		<field name="name">Cyber Security</field>
+		<field name="parent_id" ref="website.main_menu" />
+		<field name="sequence" type="int">46</field>
+		<field name="url">/cyber-security</field>
+	</record>
+
+	<record id="menu_real_estate_template" model="website.menu">
+		<field name="name">Real Estate</field>
+		<field name="parent_id" ref="website.main_menu" />
+		<field name="sequence" type="int">47</field>
+		<field name="url">/real-estate</field>
+	</record>
+
+	<record id="menu_travel_template" model="website.menu">
+		<field name="name">Travel</field>
+		<field name="parent_id" ref="website.main_menu" />
+		<field name="sequence" type="int">48</field>
+		<field name="url">/travel</field>
+	</record>
+
+	<record id="menu_yoga_template" model="website.menu">
+		<field name="name">Yoga</field>
+		<field name="parent_id" ref="website.main_menu" />
+		<field name="sequence" type="int">49</field>
+		<field name="url">/business-yoga</field>
+	</record>
+
+	<record id="menu_seo_template" model="website.menu">
+		<field name="name">SEO</field>
+		<field name="parent_id" ref="website.main_menu" />
+		<field name="sequence" type="int">50</field>
+		<field name="url">/business-seo</field>
+	</record>
+
+	<record id="menu_hotel_template" model="website.menu">
+		<field name="name">Hotel</field>
+		<field name="parent_id" ref="website.main_menu" />
+		<field name="sequence" type="int">51</field>
+		<field name="url">/business-hotel</field>
+	</record>
+
+	<record id="menu_desserts_template" model="website.menu">
+		<field name="name">Desserts</field>
+		<field name="parent_id" ref="website.main_menu" />
+		<field name="sequence" type="int">52</field>
+		<field name="url">/business-desserts</field>
+	</record>
+
+	<record id="menu_coming_soon_template" model="website.menu">
+		<field name="name">Coming Soon</field>
+		<field name="parent_id" ref="website.main_menu" />
+		<field name="sequence" type="int">53</field>
+		<field name="url">/coming-soon</field>
+	</record>
+
+	<record id="menu_thank_you_template" model="website.menu">
+		<field name="name">Thank You</field>
+		<field name="parent_id" ref="website.main_menu" />
+		<field name="sequence" type="int">54</field>
+		<field name="url">/thank-you</field>
+	</record>
+
+	<!-- <record id="menu_shopby_category_template" model="website.menu">
+		<field name="name">Category</field>
+		<field name="parent_id" ref="website.main_menu" />
+		<field name="sequence" type="int">21</field>
+		<field name="url">/category</field>
+	</record> -->
+	<!-- <record id="menu_shopby_brand_template" model="website.menu">
+		<field name="name">Brand</field>
+		<field name="parent_id" ref="website.main_menu" />
+		<field name="sequence" type="int">22</field>
+		<field name="url">/brand</field>
+	</record> -->
+
+	<record id="menu_help_center_template" model="website.menu">
+		<field name="name">Help Center</field>
+		<field name="parent_id" ref="website.main_menu" />
+		<field name="sequence" type="int">23</field>
+		<field name="url">/help-center</field>
+	</record>
+
+</odoo>

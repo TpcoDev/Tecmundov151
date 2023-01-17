@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<template id="preload_fonts" name="Preload Fonts" inherit_id="web.layout">
+	<xpath expr="//head/link[last()]" position="after">
+		<link rel="preload" href="/theme_vouge_business/static/lib/RemixIcon/remixicon.woff2?t=1580819880586" as="font" crossorigin="" />
+		<link rel="preload" href="/theme_vouge_business/static/lib/linearicons/fonts/Linearicons-Free.woff2?w118d" as="font" crossorigin="" />
+		<link rel="preload" href="/theme_vouge_business/static/lib/themify-icons/fonts/themify.woff?-fvbane" as="font" crossorigin="" />
+		<link rel="preload" href="/theme_vouge_business/static/lib/icofont/fonts/icofont.woff2" as="font" crossorigin="" />
+	</xpath>
+</template>
+
+<!-- 	<template id="vouge_corporate_theme_common_assets"
+		name="Theme Common Assets" inherit_id="website.assets_frontend">
+		<xpath expr="." position="inside"> -->
+
+			<!-- <script>
+				function openSearchPopup() {
+					  $(".search-box").addClass("open");
+					}
+
+				function CartSidebar() {
+					  $("#cart_sidebar").addClass("toggled");
+					}
+			</script> -->
+<!-- 			<link rel="stylesheet" type="text/css" href="/theme_vouge_business/static/lib/themify-icons/themify-icons.css"/>
+			<link rel="stylesheet" type="text/css" href="/theme_vouge_business/static/lib/fonticon/strock-gap-icons.css"/>
+			<link rel="stylesheet" type="text/css" href="/theme_vouge_business/static/lib/icofont/icofont.css"/>
+			<link rel="stylesheet" type="text/css" href="/theme_vouge_business/static/lib/linearicons/style.css"/>
+            <link rel="stylesheet" type="text/css" href="/theme_vouge_business/static/lib/RemixIcon/remixicon.css"/>
+            <link rel="stylesheet" type="text/css" href="/theme_vouge_business/static/lib/lineicons/font-css/LineIcons.css"/> -->
+            
+			<!-- <link rel="stylesheet" type="text/scss"
+				href="/theme_vouge_business/static/src/scss/customise_model.scss"/>
+			<link rel="stylesheet" type="text/scss"
+				href="/theme_vouge_business/static/src/scss/headers/mobile_bottom_bar.scss"/>
+			<link rel="stylesheet" type="text/scss"
+				href="/theme_vouge_business/static/src/scss/megamenu.scss"/>
+			<link rel="stylesheet" type="text/scss"
+				href="/theme_vouge_business/static/src/scss/fonts.scss"/>
+			<link rel="stylesheet" type="text/scss"
+				href="/theme_vouge_business/static/src/scss/vouge_demo.scss"/>
+			<link rel="stylesheet" type="text/scss"
+				href="/theme_vouge_business/static/src/scss/cookie_bar.scss"/>
+
+			<link rel="stylesheet" type="text/scss"
+				href="/theme_vouge_business/static/src/scss/bussiness-pages/charity.scss"/>
+			<link rel="stylesheet" type="text/scss"
+				href="/theme_vouge_business/static/src/scss/bussiness-pages/It-solution.scss"/>
+			<link rel="stylesheet" type="text/scss"
+				href="/theme_vouge_business/static/src/scss/bussiness-pages/creative-agency.scss"/>
+			<link rel="stylesheet" type="text/scss"
+				href="/theme_vouge_business/static/src/scss/bussiness-pages/app-landing.scss"/>
+			<link rel="stylesheet" type="text/scss"
+				href="/theme_vouge_business/static/src/scss/bussiness-pages/app-landing-two.scss"/>
+			<link rel="stylesheet" type="text/scss"
+				href="/theme_vouge_business/static/src/scss/bussiness-pages/medical.scss"/>
+			<link rel="stylesheet" type="text/scss"
+				href="/theme_vouge_business/static/src/scss/bussiness-pages/snowboard.scss"/>
+			<link rel="stylesheet" type="text/scss"
+				href="/theme_vouge_business/static/src/scss/bussiness-pages/cyber-security.scss"/>
+			<link rel="stylesheet" type="text/scss"
+				href="/theme_vouge_business/static/src/scss/bussiness-pages/real-estate.scss"/>
+			<link rel="stylesheet" type="text/scss"
+				href="/theme_vouge_business/static/src/scss/bussiness-pages/travel.scss"/>
+			<link rel="stylesheet" type="text/scss"
+				href="/theme_vouge_business/static/src/scss/bussiness-pages/yoga.scss"/>
+			<link rel="stylesheet" type="text/scss"
+				href="/theme_vouge_business/static/src/scss/bussiness-pages/seo.scss"/>
+			<link rel="stylesheet" type="text/scss"
+				href="/theme_vouge_business/static/src/scss/bussiness-pages/hotel.scss"/>
+			<link rel="stylesheet" type="text/scss"
+				href="/theme_vouge_business/static/src/scss/bussiness-pages/desserts.scss"/>
+
+			<link rel="stylesheet" type="text/scss"
+				href="/theme_vouge_business/static/src/scss/footers/footer.scss"/>
+			<link rel="stylesheet" type="text/scss"
+				href="/theme_vouge_business/static/src/scss/footers/footer4.scss"/>
+			<link rel="stylesheet" type="text/scss"
+				href="/theme_vouge_business/static/src/scss/footers/footer5.scss"/>
+			<link rel="stylesheet" type="text/scss"
+				href="/theme_vouge_business/static/src/scss/footers/footer6.scss"/>
+			<link rel="stylesheet" type="text/scss"
+				href="/theme_vouge_business/static/src/scss/footers/footer7.scss"/>
+			<link rel="stylesheet" type="text/scss"
+				href="/theme_vouge_business/static/src/scss/footers/footer8.scss"/>
+
+			
+			<link rel="stylesheet" type="text/scss"
+				href="/theme_vouge_business/static/src/scss/headers/header_new1.scss"/>
+			<link rel="stylesheet" type="text/scss"
+				href="/theme_vouge_business/static/src/scss/headers/header_new2.scss"/>
+			<link rel="stylesheet" type="text/scss"
+				href="/theme_vouge_business/static/src/scss/headers/header_new3.scss"/>
+			<link rel="stylesheet" type="text/scss"
+				href="/theme_vouge_business/static/src/scss/headers/sidebar.scss"/>
+			<link rel="stylesheet" type="text/scss"
+				href="/theme_vouge_business/static/src/scss/headers/header.scss"/>
+			<link rel="stylesheet" type="text/scss"
+				href="/theme_vouge_business/static/src/scss/headers/header2.scss"/>
+			<link rel="stylesheet" type="text/scss"
+				href="/theme_vouge_business/static/src/scss/headers/header3.scss"/>
+			<link rel="stylesheet" type="text/scss"
+				href="/theme_vouge_business/static/src/scss/headers/header4.scss"/>
+			<link rel="stylesheet" type="text/scss"
+				href="/theme_vouge_business/static/src/scss/headers/header5.scss"/>
+			<link rel="stylesheet" type="text/scss"
+				href="/theme_vouge_business/static/src/scss/headers/header6.scss"/>
+			<link rel="stylesheet" type="text/scss"
+				href="/theme_vouge_business/static/src/scss/headers/header7.scss"/>
+			<link rel="stylesheet" type="text/scss"
+				href="/theme_vouge_business/static/src/scss/headers/header8.scss"/>
+			<link rel="stylesheet" type="text/scss"
+				href="/theme_vouge_business/static/src/scss/headers/header9.scss"/>
+			<link rel="stylesheet" type="text/scss"
+				href="/theme_vouge_business/static/src/scss/headers/header10.scss"/>
+
+			<link rel="stylesheet" type="text/scss"
+				href="/theme_vouge_business/static/src/scss/product_slider.scss"/>
+			<link rel="stylesheet" type="text/scss"
+				href="/theme_vouge_business/static/src/scss/contactus.scss"/>
+			<link rel="stylesheet" type="text/scss"
+				href="/theme_vouge_business/static/src/scss/newsletter_popup.scss"/>
+			<link rel="stylesheet" type="text/scss"
+				href="/theme_vouge_business/static/src/scss/portal.scss"/>
+			<link rel="stylesheet" type="text/scss"
+				href="/theme_vouge_business/static/src/scss/help_center.scss"/>
+			<link rel="stylesheet" type="text/scss"
+				href="/theme_vouge_business/static/src/scss/coming-soon.scss"/>
+			<link rel="stylesheet" type="text/scss"
+				href="/theme_vouge_business/static/src/scss/blog_page.scss"/>
+
+			<link rel="stylesheet" type="text/scss" href="/theme_vouge_business/static/src/scss/buttons/biz_button_1.scss"/>
+			<link rel="stylesheet" type="text/scss" href="/theme_vouge_business/static/src/scss/buttons/biz_button_2.scss"/>
+			<link rel="stylesheet" type="text/scss" href="/theme_vouge_business/static/src/scss/buttons/biz_button_3.scss"/>
+			<link rel="stylesheet" type="text/scss" href="/theme_vouge_business/static/src/scss/buttons/biz_button_4.scss"/>
+			<link rel="stylesheet" type="text/scss" href="/theme_vouge_business/static/src/scss/buttons/biz_button_5.scss"/>
+			<link rel="stylesheet" type="text/scss" href="/theme_vouge_business/static/src/scss/buttons/biz_button_6.scss"/>
+			<link rel="stylesheet" type="text/scss" href="/theme_vouge_business/static/src/scss/buttons/biz_button_7.scss"/>
+			<link rel="stylesheet" type="text/scss" href="/theme_vouge_business/static/src/scss/buttons/biz_button_8.scss"/>
+			<link rel="stylesheet" type="text/scss" href="/theme_vouge_business/static/src/scss/buttons/biz_button_9.scss"/>
+			<link rel="stylesheet" type="text/scss" href="/theme_vouge_business/static/src/scss/buttons/biz_button_10.scss"/>
+			<link rel="stylesheet" type="text/scss" href="/theme_vouge_business/static/src/scss/buttons/biz_button_11.scss"/>
+			<link rel="stylesheet" type="text/scss" href="/theme_vouge_business/static/src/scss/buttons/biz_button_12.scss"/>
+				
+
+		</xpath>
+	</template>
+
+	<template id="vouge_corporate_theme_common_asset_frontend" inherit_id="website.assets_frontend" name="Bizople Theme Assets">
+        <xpath expr="//link[last()]" position="after">
+            <link href="/theme_vouge_business/static/src/css/owl.carousel.css" rel="stylesheet" type="text/css"/>
+            <link href="/theme_vouge_business/static/src/scss/pro_slider.scss" rel="stylesheet" type="text/scss"/>
+
+        </xpath>
+        <xpath expr="//script[last()]" position="after">
+            <script  src="/theme_vouge_business/static/src/js/owl.carousel.min.js" type="text/javascript"></script>
+            <script src="/theme_vouge_business/static/src/js/bizcommon_fronted.js" type="text/javascript"/>
+            <script type="text/javascript" src="/theme_vouge_business/static/src/js/common.js" /> -->
+            <!-- <script type="text/javascript" src="/theme_vouge_business/static/src/js/header_color_option.js" /> -->
+			<!-- <script src="/theme_vouge_business/static/src/js/user_portal.js" />
+			<script src="/theme_vouge_business/static/src/js/portal.js" />
+			<script src="/theme_vouge_business/static/src/js/cookie_editor.js" />
+        </xpath>
+    </template>
+    
+    <template id="vouge_corporate_theme_common_assets_editor" inherit_id="website.assets_editor" name="Bizople Theme Editor Assets">
+        <xpath expr="." position="inside">
+            <script src="/theme_vouge_business/static/src/js/bizcommon_editor.js" type="text/javascript"/>
+        </xpath>
+    </template>
+
+    <template id="theme_customize_options"
+		inherit_id="website._assets_primary_variables">
+		<xpath expr="//link[last()]" position="after">
+			<link rel="stylesheet" type="text/scss"
+				href="/theme_vouge_business/static/src/scss/theme_variable.scss"/>
+		</xpath>
+	</template>
+	
+	<template id="_assets_frontend_helpers_website" inherit_id="website._assets_frontend_helpers">
+		<xpath expr="//link[last()]" position="after">
+			<link rel="stylesheet" type="text/scss"
+				href="/theme_vouge_business/static/src/scss/bootstrap_overridden.scss"/>
+		</xpath>
+	</template> -->
+	
+
+</odoo>

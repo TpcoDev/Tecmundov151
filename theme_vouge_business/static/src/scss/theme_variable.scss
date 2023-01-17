@@ -1,0 +1,139 @@
+$primarycolor: #419183 !default;
+$secondarycolor: #1b1b1b !default;
+$primaryo-color-3:  #79425f !default;
+$ptextcolor: #6a6c72 !default;
+
+
+$o-color-palettes: map-merge($o-color-palettes,
+    (
+        'base-1': map-merge(map-get($o-color-palettes, 'base-1'), (
+            'o-color-1': $primarycolor,
+            'o-color-2': $secondarycolor,
+            'o-color-3': $primaryo-color-3,
+            'o-color-4': #0b1f52,
+            'o-color-5': #ff9c81,
+        )),
+    )
+);
+
+/* -------------------------- Main Colors ------------------------*/
+
+/* -------------------------- Text Colors ------------------------*/
+$o-base-color-combination: (
+    'bg': 'white',
+    'text': #6d7175, // Default to better contrast with the 'bg'
+    'headings': #202430, // Default to 'text'
+    'h2': #202430, // Default to 'h(x-1)'
+    'h3': #202430,
+    'h4': #202430,
+    'h5': #202430,
+    'h6': #202430,
+    'link': null, // Default to BS 'primary' (= first odoo color)
+    'btn-primary': null, // Default to BS 'primary' (= first odoo color)
+    'btn-primary-border': null, // Default to 'btn-primary'
+    'btn-secondary': null, // Default to BS 'secondary' (= second odoo color)
+    'btn-secondary-border': null, // Default to 'btn-secondary'
+);
+
+$o-color-combinations-presets: (
+    (
+        (
+            'bg': 'white',
+            'text': 'black',
+            'heading': 'black',
+            'link': 'o-color-1',
+            'btn-primary': 'o-color-1',
+            'btn-secondary': 'o-color-2',
+        ),
+        (
+            'bg': 'o-color-2',
+            'text': 'white',
+            'headings': 'white',
+            'link': 'o-color-1',
+            'btn-primary': 'white',
+            'btn-secondary': 'black',
+        ),
+        (
+            'bg': 'o-color-3',
+            'text': 'white',
+            'headings': 'white',
+            'link': 'o-color-5',
+            'btn-primary': 'o-color-2',
+            'btn-secondary': 'o-color-5',
+        ),
+        (
+            'bg': 'o-color-4',
+            'text': 'white',
+            'headings': 'white',
+            'link': 'o-color-5',
+            'btn-primary': 'o-color-1',
+            'btn-secondary': 'white',
+        ),
+        (
+            'bg': 'o-color-1',
+            'text': 'white',
+            'headings': 'white',
+            'link': 'o-color-5',
+            'btn-primary': 'o-color-2',
+            'btn-secondary': 'o-color-3',
+        ),
+    ),
+);
+$o-color-combinations-preset-number: 1;
+
+/* -------------------------- fonts -----------------------------*/
+
+$o-website-values-palettes: (
+    (
+        'headings-font': 'Nunito',
+        'navbar-font': 'Nunito',
+        'buttons-font': 'Nunito',
+    ),
+) !default;
+
+$o-theme-font-configs: (
+    'Nunito': (
+        'family': ('Nunito'),
+        'url': 'Nunito:400,400i,500,500i,600,600i,700,700i',
+    ),
+    'Poppins': (
+        'family': ('Poppins'),
+        'url': 'Poppins:400,400i,500,500i,600,600i,700,700i',
+    ),
+    'Jost': (
+        'family': ('Jost', sans-serif),
+        'url': 'Jost:400,400i,500,500i,600,600i,700,700i',
+    ),
+    'Rubik': (
+        'family': ('Rubik'),
+        'url': 'Rubik:400,400i,700,700i',
+    ),
+    'Montserrat': (
+        'family': ('Montserrat', sans-serif),
+        'url': 'Montserrat:400,400i,700,700i',
+    ),
+    'Roboto': (
+        'family': ('Roboto', sans-serif),
+        'url': 'Roboto:300,300i,400,400i,700,700i',
+    ),
+    'Open Sans': (
+        'family': ('Open Sans', sans-serif),
+        'url': 'Open+Sans:300,300i,400,400i,700,700i',
+    ),
+    'Source Sans Pro': (
+        'family': ('Source Sans Pro', sans-serif),
+        'url': 'Source+Sans+Pro:300,300i,400,400i,700,700i',
+    ),
+    'Raleway': (
+        'family': ('Raleway', sans-serif),
+        'url': 'Raleway:300,300i,400,400i,700,700i',
+    ),
+    'Noto Serif': (
+        'family': ('Noto Serif', serif),
+        'url': 'Noto+Serif:300,300i,400,400i,700,700i',
+    ),
+    'Arvo': (
+        'family': ('Arvo', Times, serif),
+        'url': 'Arvo:300,300i,400,400i,700,700i',
+    ),
+) !default;
